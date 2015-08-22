@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    animation: background 40s linear infinite;
+}
+
+#image {
+    text-align: center;
+    animation: image 480s linear infinite;
+}
+
+@keyframes image {
+    0% {
+        transform: scale(1);
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    8.33% {
+        transform: scale(0.95) rotate(30deg);
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+    }
+    16.66% {
+        transform: scale(1) rotate(60deg);
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    25% {
+        transform: scale(0.95) rotate(90deg);
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+    }
+    33.33% {
+        transform: scale(1) rotate(120deg);
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    41.66% {
+        transform: scale(0.95) rotate(150deg);
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+    }
+    50% {s
+        transform: scale(1) rotate(180deg);
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    58.33% {
+        transform: scale(0.95) rotate(210deg);
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+    }
+    66.66% {
+        transform: scale(1)  rotate(240deg);
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    75% {
+        transform: scale(0.95) rotate(270deg);
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+    }
+    83.33% {
+        transform: scale(1) rotate(300deg);
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    91.66% {
+        transform: scale(0.95) rotate(330deg);
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+}
+
+@keyframes background {
+    50% {
+        background-color: white;
+    }
+    100% {
+        background-color: black;
+    }
+}
