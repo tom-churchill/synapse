@@ -75,7 +75,7 @@ CircleDrawer.prototype.main = function() {
 
 function init() {
     var body = document.getElementsByTagName("body")[0];
-    body[0].addEventListener("click", init);
+    body.addEventListener("click", init);
     
     var from_colour = new Colour(Math.random(), Math.random(), Math.random());
     var mid_colour = new Colour(Math.random(), Math.random(), Math.random());
